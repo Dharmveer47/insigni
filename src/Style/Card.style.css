@@ -1,0 +1,47 @@
+@import url(./Navbar.style.css);
+.cContainer {
+  margin: 0px 10px;
+  font-family: SoniSans;
+  width: 250px;
+  height: 440px;
+  border-radius: 15px;
+  background: #212121;
+  box-shadow: 9px 9px 10px rgba(0, 0, 0, 0.25),
+    -9px -9px 10px rgba(75, 93, 104, 0.1);
+  border-radius: 50px;
+  box-sizing: content-box;
+}
+.cClipBord {
+  margin-top: 5px;
+  /* border: 1px solid yellow; */
+  text-align: center;
+}
+.cClipBord > img {
+  width: 200px;
+  height: 200px;
+}
+.cTextItems {
+  width: 90%;
+  margin: auto;
+}
+.cTextItems h1 {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--Heading);
+}
+.cTextItems p {
+    font-weight: normal;
+  color: var(--white);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.cbtn {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  color: var(--Heading);
+}
+.cbtn p{
+    margin-right: 15px;
+}

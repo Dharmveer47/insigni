@@ -1,0 +1,66 @@
+@import url(./Navbar.style.css);
+
+.fContainer {
+  
+  width: 90%;
+  margin: auto;
+  background: radial-gradient(38.2% 50% at 50% 50%, #2e3134 0%, #292b2e 100%);
+  border: 1px solid #272829;
+  box-shadow: inset 2px 2px 40px rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+}
+.fHeading {
+  /* border: 1px solid red; */
+  margin-top: 40px;
+}
+.fHeading h1 {
+  color: var(--Heading);
+  width: 90%;
+  margin: auto;
+}
+.fCard {
+  display: block;
+  overflow:hidden;
+  
+}
+.fCard > div {
+  /* border: 1px solid red; */
+  flex-basis: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  left: 10%;
+  margin-bottom: 50px;
+}
+
+.fSmallimg {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.fSmallimg > div {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fImgArrow {
+  transform: rotate(-180deg);
+  width: 25px;
+  margin-left: 5px;
+}
+.mr {
+  margin-left: 5px;
+}
+.mt5{
+ margin:50px 0px ; 
+}
+@media screen and (max-width: 720px ) {
+  .fCard {
+    overflow:scroll;
+  }
+  
+}

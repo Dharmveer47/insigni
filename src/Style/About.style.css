@@ -1,0 +1,52 @@
+@import url(./Home.style.css);
+.aContinar {
+  width: 80%;
+  margin: auto;
+  font-family: SoniSans;
+}
+.aFixingSize {
+    margin-top: 5rem;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: radial-gradient(38.2% 50% at 50% 50%, #2e3134 0%, #292b2e 100%);
+  border: 2px solid #272829;
+  box-shadow: inset 2px 2px 40px rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+}
+.Aheading > h1 {
+  font-size: 50px;
+  color: var(--Heading);
+}
+.ASecurity>img{
+    /* border: 1px solid yellow; */
+    flex-basis: 10%;
+}
+.ATextItems {
+  flex-basis: 40%;
+ 
+}
+.ATextItems div p {
+    color: var(--white);
+}
+@media screen and (max-width: 1020px) {
+  .ATextItems {
+    flex-basis: 100%;
+   
+  }
+  .aFixingSize {
+    margin-top: 5rem;
+    flex-direction: column;
+  }
+  .aContinar {
+    width: 90%;
+   
+  }
+  .ASecurity>img{
+    width: 100%;
+  height: auto;
+}
+}
+    
+

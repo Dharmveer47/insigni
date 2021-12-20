@@ -1,0 +1,16 @@
+:root {
+  --Heading: #30FBEF;
+  --white: #ffffff;
+}
+.app{
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+*{
+  margin: 0%;
+  padding: 0%;
+}
+@font-face {
+  font-family: SoniSans;
+  src: url(./Img/FontType/Stawix\ -\ SoinSansNeue-Medium.otf);
+}

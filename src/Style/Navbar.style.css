@@ -1,0 +1,77 @@
+@import url(../App.css);
+.allCenter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.NavMain {
+  width: 85%;
+  margin: auto;
+  font-family: SoniSans;
+}
+.NavLogo {
+  flex-basis: 160px;
+}
+.NavLink {
+  flex-basis: 50%;
+}
+.NavLink > button {
+  cursor: pointer;
+  color: white;
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: normal;
+  white-space: nowrap;
+}
+.NavLink > button:hover,
+.NavLink > button:focus {
+  color: var(--Heading);
+}
+.NavHeading {
+  color: var(--Heading);
+}
+.ButtonStyle {
+  cursor: pointer;
+  color: white;
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: normal;
+  white-space: nowrap;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 210px;
+  height: 60px;
+  background: #282828;
+  box-shadow: 4px 3px 8px rgba(0, 0, 0, 0.25),
+    -3px -3px 8px rgba(75, 93, 104, 0.1);
+  border-radius: 50px;
+}
+.ButtonStyle:hover {
+  box-shadow: 4px 3px 8px rgba(158, 158, 158, 0.25),
+    -3px -3px 8px rgba(0, 153, 255, 0.1);
+}
+.NavHamMenu {
+  display: none;
+}
+@media screen and (max-width: 1020px) {
+  .NavLink {
+    display: none;
+  }
+  .NavHamMenu {
+    display: block;
+    cursor: pointer;
+  }
+  .NavHamMenu > img {
+    width: 40px;
+  }
+  .NavLink {
+    flex-basis: 0%;
+  }
+  .NavMain{
+    width: 90%;
+  }
+}
