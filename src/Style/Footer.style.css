@@ -110,11 +110,29 @@
   .FoNav {
     flex-direction: column;
   }
+  .FoButton{
+    width: 170px;
+  }
   .FoButtonArea {
     /* border: 1px solid red; */
     margin-top: 20px;
   }
   .FoSocial{
-    margin-right: 10px;
+    margin-right: 0px;
+  }
+  .FoMain{
+    flex-direction: column;
+  }
+  .FoMain02 {
+    width: 100%;
+   
+  }
+  .FoMain01 {
+    width: 100%;
+    /* border: 1px solid white; */
+  }
+  .FoInfo02 {
+    /* border: 1px solid white; */
+    margin-right: 0%;
   }
 }
