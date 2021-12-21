@@ -11,9 +11,9 @@ const App = () => {
       <Navbar />
       <Home />
       <About />
-      <Fetures  Name="Features"/>
+      <Fetures  Name1="Features"/>
       <Download />
-      <Fetures  Name="Testimonials" />
+      <Fetures  Name2="Testimonials" />
     </div>
   );
 };

@@ -10,19 +10,17 @@ import "../Style/Feature.style.css";
 const Fetures = (props) => {
   const [display, setDisplay] = useState("none");
   const [displayTestM, setDisplayTestM] = useState("none");
-  console.log(props.forCard);
-  console.log(props.forTestmoniol);
-
   useEffect(() => {
-    if(props.Name === "Features"){
+    if(props.Name1 === "Features"){
       setDisplay("")
     }
-    else if(props.Name === "Testimonials"){
+  },[props.Name1])
+  useEffect(() => {
+    if(props.Name2 === "Testimonials"){
       setDisplayTestM("")
       // console.log("lol")
     }
-  });
-  
+  }, [props.Name2])
   return (
     <div className="mt5">
       <div className="fContainer">
