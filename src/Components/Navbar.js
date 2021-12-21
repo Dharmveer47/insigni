@@ -4,7 +4,7 @@ import "../Style/Navbar.style.css";
 // ------- Menu Icon ---------
 import Hamburg from "../Img/hamburger-menu.svg";
 import Arro from "../Img/Arrow 1.svg";
-import Logo from "../Img/Abstract Circle 1.svg";
+import Logo from "../Img/Abstract Circle 1.png";
 const Navbar = () => {
   return (
     <div className="NavMain allCenter">
