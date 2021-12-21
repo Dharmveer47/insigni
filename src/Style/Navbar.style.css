@@ -4,11 +4,7 @@
   align-items: center;
   justify-content: space-between;
 }
-.NavMain {
-  width: 85%;
-  margin: auto;
-  font-family: SoniSans;
-}
+
 .NavLogo {
   flex-basis: 160px;
 }
@@ -67,6 +63,7 @@
   }
   .NavHamMenu > img {
     width: 40px;
+
   }
   .NavLink {
     flex-basis: 0%;

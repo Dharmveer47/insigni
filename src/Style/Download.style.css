@@ -1,16 +1,13 @@
 @import url(./Navbar.style.css);
 @import url(./Feature.style.css);
 .dContainer {
-  /* border: 1px solid white; */
   position: relative;
-  width: 90%;
-  margin: auto;
+ 
   box-sizing: border-box;
 
   display: flex;
   /* align-items: center; */
   justify-content: space-between;
-  font-family: SoniSans;
 
   background: radial-gradient(38.2% 50% at 50% 50%, #2e3134 0%, #292b2e 100%);
   border: 1px solid #272829;
@@ -80,7 +77,6 @@
     }
     .dContainer{
         flex-direction: column;
-        width: 90%;
     }
     .dPhoneImg > img {
         width: 80%;

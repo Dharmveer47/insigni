@@ -11,16 +11,16 @@ const Fetures = (props) => {
   const [display, setDisplay] = useState("none");
   const [displayTestM, setDisplayTestM] = useState("none");
   useEffect(() => {
-    if(props.Name1 === "Features"){
+    if(props.Name === "Features"){
       setDisplay("")
     }
-  },[props.Name1])
+  },[props.Name])
   useEffect(() => {
-    if(props.Name2 === "Testimonials"){
+    if(props.Name === "Testimonials"){
       setDisplayTestM("")
       // console.log("lol")
     }
-  }, [props.Name2])
+  }, [props.Name])
   return (
     <div className="mt5">
       <div className="fContainer">

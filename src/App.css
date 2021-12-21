@@ -1,12 +1,21 @@
 :root {
-  --Heading: #30FBEF;
+  --Heading: #30fbef;
   --white: #ffffff;
 }
-.app{
-  margin-top: 10px;
+.app {
+  width: 90%;
+  margin: auto;
   box-sizing: border-box;
+  font-family: SoniSans;
+  /* border: 1px solid red; */
+  color: white;
 }
-*{
+.flexCCb{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+* {
   margin: 0%;
   padding: 0%;
 }

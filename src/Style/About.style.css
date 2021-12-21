@@ -1,9 +1,6 @@
 @import url(./Home.style.css);
-.aContinar {
-  width: 80%;
-  margin: auto;
-  font-family: SoniSans;
-}
+@import url(../App.css);
+
 .aFixingSize {
     margin-top: 5rem;
   border: 1px solid red;
@@ -39,10 +36,7 @@
     margin-top: 5rem;
     flex-direction: column;
   }
-  .aContinar {
-    width: 90%;
-   
-  }
+
   .ASecurity>img{
     width: 100%;
   height: auto;
