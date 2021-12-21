@@ -19,9 +19,9 @@ const Fetures = (props) => {
     }
     else if(props.Name === "Testimonials"){
       setDisplayTestM("")
-      console.log("lol")
+      // console.log("lol")
     }
-  }, [])
+  });
   
   return (
     <div className="mt5">
