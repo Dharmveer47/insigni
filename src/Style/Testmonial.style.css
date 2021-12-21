@@ -1,0 +1,58 @@
+@import url(./Navbar.style.css);
+.tContainer {
+    margin: 10px;
+  height: 250px;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  background: #212121;
+  box-shadow: 9px 9px 10px rgba(0, 0, 0, 0.25),
+    -9px -9px 10px rgba(75, 93, 104, 0.1);
+  border-radius: 50px;
+
+  font-family: SoniSans;
+  color: var(--white);
+}
+.tImg {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  text-align: center;
+  /* border: 1px solid white; */
+}
+.tName {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: var(--Heading);
+  font-size: 18px;
+  font-weight: bold;
+}
+.tTitle {
+    /* border: 1px solid white; */
+  color: #9c69e2;
+  display: flex;
+  align-items: center;
+}
+.tTitle div{
+    /* border: 1px solid white; */
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.tDescription p{
+    /* font-size: 18px; */
+    font-weight: lighter;
+}
+@media screen and (max-width: 720px) {
+  .tContainer{
+    flex-direction: column;
+    min-width: 200px;
+    text-align: center;
+    height: auto;
+  }
+  .tTitle div{
+    display: none;
+  }
+  .tTitle {
+    margin: 10px 0px;
+  }
+}

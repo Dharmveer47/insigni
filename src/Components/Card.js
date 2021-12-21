@@ -1,10 +1,8 @@
 import React from "react";
-import ClipBord from "../Img/ClipboardText.svg";
 import Arrow from "../Img/Arrow 1.svg";
 
 import "../Style/Card.style.css";
 const Card = (props) => {
-  console.log(ClipBord);
   return (
     <div className="cContainer">
       <div className="cClipBord">

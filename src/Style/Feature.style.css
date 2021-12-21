@@ -1,7 +1,6 @@
 @import url(./Navbar.style.css);
 
 .fContainer {
-  
   width: 90%;
   margin: auto;
   background: radial-gradient(38.2% 50% at 50% 50%, #2e3134 0%, #292b2e 100%);
@@ -24,6 +23,8 @@
   
 }
 .fCard > div {
+  width: 100%;
+  height: auto;
   /* border: 1px solid red; */
   flex-basis: 100%;
   display: flex;
@@ -61,6 +62,7 @@
 @media screen and (max-width: 720px ) {
   .fCard {
     overflow:scroll;
+    flex-basis: 0px;
   }
-  
+
 }

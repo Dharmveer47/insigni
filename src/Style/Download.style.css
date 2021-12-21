@@ -1,0 +1,96 @@
+@import url(./Navbar.style.css);
+@import url(./Feature.style.css);
+.dContainer {
+  /* border: 1px solid white; */
+  position: relative;
+  width: 90%;
+  margin: auto;
+  box-sizing: border-box;
+
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  font-family: SoniSans;
+
+  background: radial-gradient(38.2% 50% at 50% 50%, #2e3134 0%, #292b2e 100%);
+  border: 1px solid #272829;
+  box-shadow: inset 2px 2px 40px rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+}
+.dmt5{
+    /* border: 1px solid white; */
+    margin-top: 100px;
+}
+.dHeading {
+  flex-basis: 50%;
+  /* border: 1px solid red; */
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.dParagraph{
+    width: 90%;
+    margin: auto;
+}
+.dParagraph button{
+    margin-bottom: 50px;
+}
+.dBtm{
+    width: 90%;
+    margin: auto;
+}
+.dParagraph p{
+    color: var(--white);
+    width: 90%;
+    margin: auto;
+    font-weight:normal;
+    font-size: 18px;
+    font-style: normal;
+}
+.dMainHeading{
+    margin-bottom: 50px;
+    /* border: 1px solid yellow; */
+}
+.dMainHeading h1 {
+    /* border: 1px solid royalblue; */
+  font-size: 40px;
+  font-weight: bold;
+  color: var(--Heading);
+  width: 90%;
+  margin: auto;
+}
+.dPhoneImg{
+    flex-basis: 50%;
+    /* border: 1px solid yellow; */
+    display: block;
+    position: absolute;
+    top: -50px;
+    right: 0;
+}
+.dPhoneImg > img {
+    width: 80%;
+    height: auto;
+    transform: rotate(22deg);
+}
+@media screen and (max-width: 935px) {
+    .dPhoneImg{
+        position: relative;
+        top: -30px;
+        right: auto;
+        order: 1;
+    }
+    .dContainer{
+        flex-direction: column;
+        width: 90%;
+    }
+    .dPhoneImg > img {
+        width: 80%;
+        height: auto;
+        transform: rotate(20deg);
+        /* border: 1px solid red; */
+    }
+    .dHeading{
+        order: 1;
+        margin-bottom: 50px;
+    }
+    
+}

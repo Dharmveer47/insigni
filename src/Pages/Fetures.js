@@ -1,19 +1,36 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Card from "../Components/Card";
+import Testmonial from "../Components/Testmonial";
 import Dot from "../Img/Dot.svg";
 import smallDot from "../Img/Small Dot.svg";
 import Warrow from "../Img/White Arrow.svg";
+
 import "../Style/Feature.style.css";
 
-const Fetures = () => {
+const Fetures = (props) => {
+  const [display, setDisplay] = useState("none");
+  const [displayTestM, setDisplayTestM] = useState("none");
+  console.log(props.forCard);
+  console.log(props.forTestmoniol);
+
+  useEffect(() => {
+    if(props.Name === "Features"){
+      setDisplay("")
+    }
+    else if(props.Name === "Testimonials"){
+      setDisplayTestM("")
+      console.log("lol")
+    }
+  }, [])
+  
   return (
     <div className="mt5">
       <div className="fContainer">
         <div className="fHeading">
-          <h1>Features</h1>
+          <h1>{props.Name}</h1>
         </div>
-        <div className="fCard">
-          <div>
+        <div className="fCard " >
+          <div style={{display: `${display}` }}>
             <Card
               img="https://raw.githubusercontent.com/Dharmveer47/PortfolioImg/3dfe5f5c5b9c2ac651a7e202466e24ae0e2af201/ClipboardText.svg"
               name="Search Data"
@@ -29,7 +46,12 @@ const Fetures = () => {
               naem="Security Code"
               des="Data Security is one of our best facilities. Allows for your files to be safer. The file can be secured with a code or password that you created, so only you can open the file."
             />
+            
           </div>
+          <div style={{display: `${displayTestM}`}}>
+              <Testmonial/>
+              <Testmonial/>
+            </div>
         </div>
 
         <div className="fSmallimg">
